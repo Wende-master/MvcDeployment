@@ -15,7 +15,7 @@ namespace MvcDeployment.Controllers
 
         public IActionResult Index()
         {
-            ViewData["SALUDO"] = "Nuestra App Deployment de lunes";
+            ViewData["SALUDO"] = "Nuestra App Deployment de Lunes";
             Random random = new Random();
             List<int> numeros = new List<int>();
             for(int i = 0; i <= 10; i++)
